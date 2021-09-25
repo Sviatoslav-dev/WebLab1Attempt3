@@ -19,6 +19,18 @@
   "homepage": "https://github.com/Sviatoslav-dev/WebLab1Attempt3#readme",
   "devDependencies": {
     "eslint": "^7.32.0",
-    "eslint-config-metarhia": "^7.0.1"
+    "eslint-config-metarhia": "^7.0.1",
+    "husky": "^7.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staget"
+    }
+  },
+  "lint-staget": {
+    "*.js": [
+      "npm run eslint ./src",
+      "git add"
+    ]
   }
 }
