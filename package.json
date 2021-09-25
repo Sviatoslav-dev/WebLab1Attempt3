@@ -1,0 +1,24 @@
+{
+  "name": "WebLab1Attempt3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sviatoslav-dev/WebLab1Attempt3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sviatoslav-dev/WebLab1Attempt3/issues"
+  },
+  "homepage": "https://github.com/Sviatoslav-dev/WebLab1Attempt3#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-metarhia": "^7.0.1"
+  }
+}
