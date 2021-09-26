@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./src",
+    "lint:css": "stylelint \"**/*.css\"",
     "lint:fmt": "prettier --check ./src",
     "lint:fix": "eslint ./src --fix"
   },
@@ -26,7 +27,9 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.2",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
   },
   "husky": {
     "hooks": {
