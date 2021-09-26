@@ -1,9 +1,9 @@
-var a =1
+const a = 1;
 
-function foo (  name){
-    var lastname=name
+function foo(name) {
+  const lastname = name;
 }
 
-var x= 200;
+const x = 200;
 
-console.log(x)
+console.log(x);
