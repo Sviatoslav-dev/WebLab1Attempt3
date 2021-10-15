@@ -1,3 +1,11 @@
+:root {
+  --silver-color: #bdc3c7;
+  --clouds-color: #ecf0f1;
+  --emerald-color: #2ecc71;
+  --asbestos-color: #7f8c8d;
+  --turquoise-color: #1abc9c;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -8,7 +16,7 @@ body {
 
 .area1 {
   float: left;
-  background-color: #bdc3c7;
+  background-color: var(--silver-color);
   width: 75vw;
   height: 25vh;
   text-align: center;
@@ -16,21 +24,21 @@ body {
 
 .area2 {
   float: right;
-  background-color: #ecf0f1;
+  background-color: var(--clouds-color);
   width: 25vw;
   height: 75vh;
 }
 
 .area3 {
   float: left;
-  background-color: #ecf0f1;
+  background-color: var(--clouds-color);
   width: 25vw;
   height: 50vh;
 }
 
 .area4 {
   float: left;
-  background-color: #2ecc71;
+  background-color: var(--emerald-color);
   width: 50vw;
   height: 10vh;
 }
@@ -41,7 +49,7 @@ body {
 
 .area5 {
   float: left;
-  background-color: #7f8c8d;
+  background-color: var(--asbestos-color);
   width: 50vw;
   height: 40.1vh;
   display: flex;
@@ -49,7 +57,7 @@ body {
 
 .area6 {
   float: left;
-  background-color: #1abc9c;
+  background-color: var(--turquoise-color);
   width: 100vw;
   height: 25vh;
 }
@@ -60,7 +68,7 @@ body {
 
 .X {
   position: absolute;
-  background: #ecf0f1;
+  background: var(--clouds-color);
   left: 2vw;
   top: 3vw;
   width: 20vw;
@@ -75,7 +83,7 @@ body {
 
 .Y {
   position: absolute;
-  background: #ecf0f1;
+  background: var(--clouds-color);
   right: 2vw;
   bottom: 3vw;
   width: 20vw;

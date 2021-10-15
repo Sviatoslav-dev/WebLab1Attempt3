@@ -4,7 +4,6 @@
   "description": "",
   "main": "somecode.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./src",
     "lint:css": "stylelint \"**/*.css\"",
     "lint:fmt": "prettier --check ./src",
@@ -27,6 +26,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-sonarjs": "^0.10.0",
     "husky": "^7.0.2",
     "prettier": "^2.4.1",
     "stylelint": "^13.13.1",
