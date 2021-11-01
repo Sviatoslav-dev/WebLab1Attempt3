@@ -4,10 +4,10 @@
   "description": "",
   "main": "somecode.js",
   "scripts": {
-    "lint": "eslint ./src",
-    "lint:css": "stylelint \"**/*.css\"",
-    "lint:fmt": "prettier --check ./src",
-    "lint:fix": "eslint ./src --fix"
+    "lint": "eslint ./src --ignore-path .gitignore",
+    "lint:css": "stylelint \"**/*.css\" --ignore-path .gitignore",
+    "lint:fmt": "prettier --check ./src --ignore-path .gitignore",
+    "lint:fix": "eslint ./src --fix --ignore-path .gitignore"
   },
   "repository": {
     "type": "git",
