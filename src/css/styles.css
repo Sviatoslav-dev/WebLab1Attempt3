@@ -14,13 +14,14 @@ body {
   font-size: 1.5em;
   width: 100%;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 
-        minmax(25vh, max-content)
-        minmax(50vh, max-content)
-        minmax(25vh, max-content);
-  grid-template-areas: "header header nav"
-                       "main main nav"
-                       "footer footer footer";
+  grid-template-rows:
+    minmax(25vh, max-content)
+    minmax(50vh, max-content)
+    minmax(25vh, max-content);
+  grid-template-areas:
+    'header header nav'
+    'main main nav'
+    'footer footer footer';
 }
 
 h1 {
@@ -30,8 +31,10 @@ h1 {
 .area1 {
   grid-area: header;
   box-sizing: border-box;
+
   /* float: left; */
   background-color: var(--silver-color);
+
   /* width: 75vw;
   height: 25vh; */
   text-align: center;
@@ -39,41 +42,51 @@ h1 {
 
 .area2 {
   grid-area: nav;
+
   /* grid-area: 2 / 1 / 5 / 1; */
   box-sizing: border-box;
+
   /* float: right; */
   background-color: var(--clouds-color);
+
   /* width: 25vw;
   height: 75vh; */
 }
 
-main{
+main {
   grid-area: main;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 
-            minmax(10vh, max-content)
-            minmax(40vh, max-content);
-  grid-template-areas: "area3 area4"
-                      "area3 area5";
+  grid-template-rows:
+    minmax(10vh, max-content)
+    minmax(40vh, max-content);
+  grid-template-areas:
+    'area3 area4'
+    'area3 area5';
 }
 
 .area3 {
   grid-area: area3;
+
   /* grid-area: 2 / 2 / 2 / 4; */
   box-sizing: border-box;
+
   /* float: left; */
   background-color: var(--clouds-color);
+
   /* width: 25vw;
   height: 50vh; */
 }
 
 .area4 {
   grid-area: area4;
+
   /* float: left; */
+
   /* grid-area: 3 / 2 / 3 / 2; */
   box-sizing: border-box;
   background-color: var(--emerald-color);
+
   /* width: 50vw;
   height: 10vh; */
 }
@@ -84,21 +97,28 @@ main{
 
 .area5 {
   grid-area: area5;
+
   /* grid-area: 4 / 2 / 4 / 2; */
   box-sizing: border-box;
+
   /* float: left; */
   background-color: var(--asbestos-color);
+
   /* width: 50vw;
   height: 40.1vh; */
+
   /* display: flex; */
 }
 
 .area6 {
   grid-area: footer;
+
   /* float: left; */
   background-color: var(--turquoise-color);
   box-sizing: border-box;
-  /*grid-area: 3 / 3 / 5 / 3; */
+
+  /* grid-area: 3 / 3 / 5 / 3; */
+
   /* width: 100vw;
   height: 25vh; */
 }

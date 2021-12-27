@@ -7,3 +7,4 @@
 # Datasource localorageignored files
 /dataSources/
 /dataSources.local.xml
+node_modules
