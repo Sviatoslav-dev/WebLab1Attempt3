@@ -17,5 +17,5 @@ jobs:
           node-version: '16'
           cache: 'npm'
 
-      - run: npm ci
+      - run: npm ci 
       - run: npx npm-run-parallel lint lint:css lint:fmt
