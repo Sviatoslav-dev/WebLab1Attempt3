@@ -28,14 +28,14 @@ h1 {
   margin-left: 40%;
 }
 
-.area1 {
+header {
   grid-area: header;
   box-sizing: border-box;
   background-color: var(--silver-color);
   text-align: center;
 }
 
-.area2 {
+nav {
   grid-area: nav;
   box-sizing: border-box;
   background-color: var(--clouds-color);
@@ -71,13 +71,13 @@ main {
   background-color: var(--asbestos-color);
 }
 
-.area6 {
+footer {
   grid-area: footer;
   background-color: var(--turquoise-color);
   box-sizing: border-box;
 }
 
-.area6 p {
+footer p {
   margin-right: 30%;
 }
 
