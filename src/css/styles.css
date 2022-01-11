@@ -28,7 +28,7 @@ h1 {
   display: inline-block;
   width: 50%;
   margin-left: 10%;
-  margin-right: 10%; 
+  margin-right: 10%;
 }
 
 header {
@@ -95,7 +95,8 @@ footer p {
   text-align: center;
 }
 
-.Y h2, .X h2{
+.Y h2,
+.X h2 {
   font-size: 1em;
 }
 

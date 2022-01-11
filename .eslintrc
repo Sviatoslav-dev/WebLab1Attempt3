@@ -1,3 +1,4 @@
 {
-  "extends": ["plugin:sonarjs/recommended", "metarhia"]
+  "extends": ["plugin:sonarjs/recommended", "metarhia"],
+  "plugins": ["sonarjs"]
 }
