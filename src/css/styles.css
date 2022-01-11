@@ -25,7 +25,9 @@ body {
 }
 
 h1 {
-  margin-left: 40%;
+  display: inline-block;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 header {
@@ -78,30 +80,34 @@ footer {
 }
 
 footer p {
-  margin-right: 30%;
+  margin-left: 1%;
+  display: inline-block;
+  margin-right: 5%;
+  width: 50%;
 }
 
 .X {
-  position: absolute;
+  display: inline-block;
   background: var(--clouds-color);
-  left: 2vw;
-  top: 3vw;
-  width: 25vw;
-  height: minmax(10vh, max-content);
+  width: minmax(25%, max-content);
+  height: minmax(10%, max-content);
   text-align: center;
 }
 
-.X h2 .Y h2 {
-  vertical-align: middle;
-  margin-top: 5%;
+.Y h2{
+  font-size: 1em;
 }
 
 .Y {
-  position: relative;
+  vertical-align: top;
+  margin-right: 5%;
+  display: inline-block;
+  margin-bottom: 3%;
+  margin-left: 5%;
+  margin-top: 2%;
   background: var(--clouds-color);
-  left: 70vw;
-  width: 25vw;
-  height: minmax(10vh, max-content);
+  width: 25%;
+  height: minmax(10%, max-content);
   text-align: center;
 }
 
