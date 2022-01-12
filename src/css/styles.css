@@ -1,0 +1,120 @@
+:root {
+  --silver-color: #bdc3c7;
+  --clouds-color: #ecf0f1;
+  --emerald-color: #2ecc71;
+  --asbestos-color: #7f8c8d;
+  --turquoise-color: #1abc9c;
+}
+
+body {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 1.5em;
+  width: 100%;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows:
+    minmax(25vh, max-content)
+    minmax(50vh, max-content)
+    minmax(25vh, max-content);
+  grid-template-areas:
+    'header header nav'
+    'main main nav'
+    'footer footer footer';
+}
+
+h1 {
+  display: inline-block;
+  width: 50%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+header {
+  grid-area: header;
+  box-sizing: border-box;
+  background-color: var(--silver-color);
+  text-align: center;
+}
+
+nav {
+  grid-area: nav;
+  box-sizing: border-box;
+  background-color: var(--clouds-color);
+}
+
+main {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows:
+    minmax(10vh, max-content)
+    minmax(40vh, max-content);
+  grid-template-areas:
+    'area3 area4'
+    'area3 area5';
+}
+
+.area3 {
+  grid-area: area3;
+  box-sizing: border-box;
+  background-color: var(--clouds-color);
+}
+
+.area4 {
+  grid-area: area4;
+  box-sizing: border-box;
+  background-color: var(--emerald-color);
+}
+
+.area5 {
+  grid-area: area5;
+  box-sizing: border-box;
+  background-color: var(--asbestos-color);
+}
+
+footer {
+  grid-area: footer;
+  background-color: var(--turquoise-color);
+  box-sizing: border-box;
+}
+
+footer p {
+  margin-left: 1%;
+  display: inline-block;
+  margin-right: 5%;
+  width: 50%;
+}
+
+.X {
+  display: inline-block;
+  background: var(--clouds-color);
+  width: 25%;
+  height: minmax(10%, max-content);
+  text-align: center;
+}
+
+.Y h2,
+.X h2 {
+  font-size: 1em;
+}
+
+.Y {
+  vertical-align: top;
+  margin-right: 5%;
+  display: inline-block;
+  margin-bottom: 3%;
+  margin-left: 5%;
+  margin-top: 2%;
+  background: var(--clouds-color);
+  width: 25%;
+  height: minmax(10%, max-content);
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  flex-shrink: 0;
+}
